@@ -80,19 +80,19 @@ A browser-based arcade-style Snake game with enhanced UI and gameplay mechanics.
 ## 📸 Project Screenshots
 
 ### Population Census
-![Population Census](images/Population cencus.png)
-
-### Tic Tac Toe
-![Tic Tac Toe](images/tic tac toe.png)
-
-### 3D Sudoku
-![3D Sudoku](images/3D Sudoku.png)
+![Population](images/population.png)
 
 ### Sales Dashboard
-![Sales Dashboard](images/sales dashboard.png)
+![Sales](images/sales.png)
+
+### Tic Tac Toe
+![Tic Tac Toe](images/tictactoe.png)
+
+### 3D Sudoku
+![Sudoku](images/sudoku.png)
 
 ### Snake Game
-![Snake Game](images/snake.png)
+![Snake](images/snake.png)
 
 ## 📌 Execution
 Each project is self-contained.  
