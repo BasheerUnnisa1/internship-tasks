@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <h1>Tic Tac Toe</h1>
+
+  <div class="top-bar">
+    <button onclick="setMode('pvp')">2 Player</button>
+    <button onclick="setMode('ai')">Play vs AI</button>
+    <button onclick="resetGame()">Reset</button>
+  </div>
+
+  <div class="status">
+    Turn: <span id="turn">X</span>
+  </div>
+
+  <div class="score">
+    X: <span id="scoreX">0</span> | O: <span id="scoreO">0</span>
+  </div>
+
+  <div class="board">
+    <div class="cell" data-i="0"></div>
+    <div class="cell" data-i="1"></div>
+    <div class="cell" data-i="2"></div>
+    <div class="cell" data-i="3"></div>
+    <div class="cell" data-i="4"></div>
+    <div class="cell" data-i="5"></div>
+    <div class="cell" data-i="6"></div>
+    <div class="cell" data-i="7"></div>
+    <div class="cell" data-i="8"></div>
+  </div>
+
+  <div id="overlay"></div>
+  <div id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

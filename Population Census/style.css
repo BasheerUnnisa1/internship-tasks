@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial;
+  background: #0b1b2b;
+  color: white;
+  overflow: hidden;
+}
+
+.dashboard {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+.header {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.header input {
+  height: 36px;
+  width: 240px;
+  border-radius: 6px;
+  border: none;
+  padding: 0 10px;
+  background: #162a3d;
+  color: white;
+}
+
+/* MAIN */
+.main {
+  flex: 1;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  min-height: 0;
+}
+
+/* KPI */
+.kpi {
+  width: 220px;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  gap: 8px;
+}
+
+.card {
+  background: #162a3d;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CHART GRID */
+.charts {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  min-height: 0;
+}
+
+/* CHART BOX */
+.chart-box {
+  background: #162a3d;
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 🔥 FIX FOR ALL CHARTS */
+.chart-box canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* 🔥 ONLY PIE CHART FIX */
+#pieChart {
+  width: 90% !important;
+  height: 90% !important;
+}

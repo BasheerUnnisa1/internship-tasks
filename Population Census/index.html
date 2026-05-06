@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>World Population Census</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="dashboard">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div>
+      <h1>🌍 World Population Census</h1>
+      <h2 id="countryTitle">India Population</h2>
+    </div>
+
+    <input type="text" id="searchBox" placeholder="Search any country...">
+  </div>
+
+  <!-- MAIN -->
+  <div class="main">
+
+    <!-- KPI -->
+    <div class="kpi">
+      <div class="card"><h3>Population</h3><p id="population">--</p></div>
+      <div class="card"><h3>Male %</h3><p id="male">--</p></div>
+      <div class="card"><h3>Female %</h3><p id="female">--</p></div>
+      <div class="card"><h3>Urban %</h3><p id="urban">--</p></div>
+      <div class="card"><h3>Growth</h3><p id="growth">--</p></div>
+    </div>
+
+    <!-- CHARTS -->
+    <div class="charts">
+      <div class="chart-box"><canvas id="lineChart"></canvas></div>
+      <div class="chart-box"><canvas id="pieChart"></canvas></div>
+      <div class="chart-box"><canvas id="barChart"></canvas></div>
+      <div class="chart-box"><canvas id="growthChart"></canvas></div>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

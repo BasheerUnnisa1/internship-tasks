@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cyber Neon Snake</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="device">
+
+  <!-- TITLE (only added this) -->
+  <div class="title">Snake Game</div>
+
+  <div class="topbar">
+    <div>Score: <span id="score">0</span></div>
+    <div>High: <span id="best">0</span></div>
+    <div>Speed: <span id="speed">1</span></div>
+    <div>Lives: <span id="lives">❤️❤️❤️</span></div>
+  </div>
+
+  <canvas id="game"></canvas>
+
+  <div class="bottombar">
+    <div class="difficulty-buttons">
+      <button onclick="setDifficulty('easy')">Easy</button>
+      <button onclick="setDifficulty('medium')">Medium</button>
+      <button onclick="setDifficulty('hard')">Hard</button>
+    </div>
+    <button onclick="toggleGame()" id="startBtn">Start</button>
+    <button onclick="restartGame()">Restart</button>
+  </div>
+
+  <!-- GAME OVER -->
+  <div id="gameOverScreen" class="gameover hidden">
+    <h1>GAME OVER</h1>
+    <p id="finalScore"></p>
+    <p id="finalBest"></p>
+    <button onclick="restartGame()">Restart</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

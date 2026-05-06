@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sales Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<h1 class="title">SALES DASHBOARD</h1>
+
+<!-- KPI -->
+<div class="kpi">
+  <div class="card"><p>Total Revenue</p><h2>₹ 9,80,000</h2><span class="green">+10.2%</span></div>
+  <div class="card"><p>Orders</p><h2>1,820</h2><span class="green">+7.5%</span></div>
+  <div class="card"><p>Customers</p><h2>940</h2><span class="green">+5.1%</span></div>
+  <div class="card"><p>Conversion</p><h2>68%</h2><span class="green">+3.4%</span></div>
+</div>
+
+<!-- CHARTS -->
+<div class="charts">
+
+  <!-- ROW 1 -->
+  <div class="chart-box"><h3>Revenue by Category</h3><canvas id="barChart"></canvas></div>
+  <div class="chart-box"><h3>Weekly Sales</h3><canvas id="lineChart"></canvas></div>
+  <div class="chart-box"><h3>Customer Growth</h3><canvas id="areaChart"></canvas></div>
+
+  <!-- ROW 2 -->
+  <div class="chart-box"><h3>Top Regions</h3><canvas id="regionChart"></canvas></div>
+  <div class="chart-box"><h3>Order Status</h3><canvas id="pieChart"></canvas></div>
+  <div class="chart-box"><h3>Profit Trend</h3><canvas id="profitChart"></canvas></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

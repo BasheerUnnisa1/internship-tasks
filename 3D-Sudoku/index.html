@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>3D Sudoku Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <h1>🧊 3D Sudoku</h1>
+
+  <div class="top-bar">
+    <button onclick="newGame('easy')">Easy</button>
+    <button onclick="newGame('medium')">Medium</button>
+    <button onclick="newGame('hard')">Hard</button>
+    <button onclick="resetGame()">Reset</button>
+  </div>
+
+  <div class="info">
+    ❤️ Lives: <span id="lives">3</span>
+    ⏱ Time: <span id="timer">0</span>s
+  </div>
+
+  <div class="scene">
+    <div id="board"></div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
