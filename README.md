@@ -77,6 +77,22 @@ A browser-based arcade-style Snake game with enhanced UI and gameplay mechanics.
 - Neon-style visual effects
 
 ---
+## 📸 Project Screenshots
+
+### Population Census
+![Population Census](images/Populationcencus.png)
+
+### Tic Tac Toe
+![Tic Tac Toe](images/tictactoe.png)
+
+### 3D Sudoku
+![3D Sudoku](images/3DSudoku.png)
+
+### Sales Dashboard
+![Sales Dashboard](images/salesdashboard.png)
+
+### Snake Game
+![Snake Game](images/snake.png)
 
 ## 📌 Execution
 Each project is self-contained.  
@@ -94,5 +110,5 @@ The objective of these tasks was to apply and strengthen practical understanding
 ---
 
 ## 👤 Author
-Internship Project Submission  
+Shaik Basheer Unnisa 
 Domain: AI & Cyber Security  
