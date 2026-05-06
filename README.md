@@ -80,16 +80,16 @@ A browser-based arcade-style Snake game with enhanced UI and gameplay mechanics.
 ## 📸 Project Screenshots
 
 ### Population Census
-![Population Census](images/Populationcencus.png)
+![Population Census](images/Population cencus.png)
 
 ### Tic Tac Toe
-![Tic Tac Toe](images/tictactoe.png)
+![Tic Tac Toe](images/tic tac toe.png)
 
 ### 3D Sudoku
-![3D Sudoku](images/3DSudoku.png)
+![3D Sudoku](images/3D Sudoku.png)
 
 ### Sales Dashboard
-![Sales Dashboard](images/salesdashboard.png)
+![Sales Dashboard](images/sales dashboard.png)
 
 ### Snake Game
 ![Snake Game](images/snake.png)
@@ -110,5 +110,7 @@ The objective of these tasks was to apply and strengthen practical understanding
 ---
 
 ## 👤 Author
+
 Shaik Basheer Unnisa 
+
 Domain: AI & Cyber Security  
