@@ -80,6 +80,7 @@ A browser-based arcade-style Snake game with enhanced UI and gameplay mechanics.
 ---
 # 📸 Project Screenshots
 
+
 ## 🧩 3D Sudoku
 <p align="center">
   <img src="./images/sudoku.png" width="500">
@@ -90,6 +91,7 @@ A browser-based arcade-style Snake game with enhanced UI and gameplay mechanics.
 <p align="center">
   <img src="./images/tictactoe.png" width="500">
 </p>
+
 
 ## 📊 Sales Dashboard
 <p align="center">
