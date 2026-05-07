@@ -80,9 +80,15 @@ A browser-based arcade-style Snake game with enhanced UI and gameplay mechanics.
 ---
 # 📸 Project Screenshots
 
-## 🌍 Population Census
+## 🧩 3D Sudoku
 <p align="center">
-  <img src="./images/population.png" width="700">
+  <img src="./images/sudoku.png" width="500">
+</p>
+
+
+## ❌⭕ Tic Tac Toe
+<p align="center">
+  <img src="./images/tictactoe.png" width="500">
 </p>
 
 ## 📊 Sales Dashboard
@@ -90,15 +96,12 @@ A browser-based arcade-style Snake game with enhanced UI and gameplay mechanics.
   <img src="./images/sales.png" width="700">
 </p>
 
-## ❌⭕ Tic Tac Toe
+
+## 🌍 Population Census
 <p align="center">
-  <img src="./images/tictactoe.png" width="500">
+  <img src="./images/population.png" width="700">
 </p>
 
-## 🧩 3D Sudoku
-<p align="center">
-  <img src="./images/sudoku.png" width="500">
-</p>
 
 ## 🐍 Snake Game
 <p align="center">
