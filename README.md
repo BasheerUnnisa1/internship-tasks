@@ -76,24 +76,34 @@ A browser-based arcade-style Snake game with enhanced UI and gameplay mechanics.
 - Game over screen overlay
 - Neon-style visual effects
 
+----
 ---
-## 📸 Project Screenshots
+# 📸 Project Screenshots
 
-### Population Census
-![Population Census](./images/population.png)
+## 🌍 Population Census
+<p align="center">
+  <img src="./images/population.png" width="700">
+</p>
 
-### Sales Dashboard
-![Sales Dashboard](./images/sales.png)
+## 📊 Sales Dashboard
+<p align="center">
+  <img src="./images/sales.png" width="700">
+</p>
 
-### Tic Tac Toe
-![Tic Tac Toe](./images/tictactoe.png)
+## ❌⭕ Tic Tac Toe
+<p align="center">
+  <img src="./images/tictactoe.png" width="500">
+</p>
 
-### 3D Sudoku
-![3D Sudoku](./images/sudoku.png)
+## 🧩 3D Sudoku
+<p align="center">
+  <img src="./images/sudoku.png" width="500">
+</p>
 
-### Snake Game
-![Snake Game](./images/snake.png)
-
+## 🐍 Snake Game
+<p align="center">
+  <img src="./images/snake.png" width="500">
+</p>
 ----
 
 ## 📌 Execution
