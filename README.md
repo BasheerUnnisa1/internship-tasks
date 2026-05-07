@@ -109,6 +109,7 @@ A browser-based arcade-style Snake game with enhanced UI and gameplay mechanics.
 <p align="center">
   <img src="./images/snake.png" width="500">
 </p>
+
 ----
 
 ## 📌 Execution
